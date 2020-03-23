@@ -1,0 +1,32 @@
+nav {
+  // background: $blanco;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  transition: 0.3s ease all;
+  box-shadow: $sombraLight;
+
+  body.ligth & {
+    // background: $blanco;
+    box-shadow: $sombraDark;
+
+  }
+
+  .logotipo {
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .enlaces {
+    display: flex;
+    align-items: center;
+    a {
+      margin-right: 40px;
+      &:hover {
+        color: #707070;
+      }
+    }
+  }
+}

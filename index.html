@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6c988527da.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+
+    <title>Neumorphism Clock</title>
+  </head>
+  <body>
+    <nav>
+      <!-- <a class="logotipo" href="#">Logotipo</a> -->
+      <div class="enlaces">
+        <!-- <a href="#">Inicio</a>
+        <a href="#">Galeria</a>
+        <a href="#">Contacto</a> -->
+        <button class="switch" id="switch">
+          <span><i class="fas fa-moon"></i></span>
+          <span><i class="fas fa-sun"></i></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="clock">
+        <div class="hour">
+          <div class="hr" id="hr"></div>
+        </div>
+        <div class="min">
+          <div class="mn" id="mn"></div>
+        </div>
+        <div class="sec">
+          <div class="sc" id="sc"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Hecho con ❤ por
+          <a href="https://twitter.com/@lsimon98" target="_blank"
+            >Simón Arenas</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

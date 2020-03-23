@@ -1,0 +1,14 @@
+@import "colors";
+@import "base";
+@import "navbar";
+@import "clock";
+@import "./components/button-switch";
+@import "./components/footer";
+
+body {
+  transition: 0.3s ease all;
+  background: $blue;
+  &.ligth {
+    background: #3498db;
+  }
+}
