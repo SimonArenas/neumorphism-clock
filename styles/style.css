@@ -104,6 +104,9 @@ body.ligth .clock {
   z-index: 10;
   border-radius: 6px 6px 0 0;
 }
+body.ligth .hr::before {
+  background: #636e72;
+}
 
 .mn::before {
   content: "";
@@ -113,6 +116,9 @@ body.ligth .clock {
   background: #fff;
   z-index: 11;
   border-radius: 6px 6px 0 0;
+}
+body.ligth .mn::before {
+  background: #b2bec3;
 }
 
 .sc::before {
